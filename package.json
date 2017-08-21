@@ -1,0 +1,26 @@
+{
+  "name": "download-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.81.0",
+    "tinify": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "download",
+    "node",
+    "lot",
+    "size"
+  ],
+  "author": "chenxue",
+  "license": "ISC"
+}
