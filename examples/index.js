@@ -13,7 +13,7 @@ const tools = require('../src/index.js');
 //   }
 //   imageLinks = data.toString().split(',');
 //   // 输入数组
-//   tools.downLoadImage(imageLinks, true);
+//   tools.downLoadImage(imageLinks, false, '../aaa');
 // });
 
 
@@ -22,4 +22,4 @@ const tools = require('../src/index.js');
  * originalImages 保存原始图片
  * images 保存压缩后的图片
  */
-tools.tinifyImage();
+tools.tinifyImage(null, '../aa');
